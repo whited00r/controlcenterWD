@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+			<key>requiredCapabilities</key>
+			<array>
+				<string>advancedConfig</string>
+			</array>
+			<key>cellBackgroundColor</key>
+			<string>clearColor</string>
+			<key>category</key>
+			<string>Visual</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Control Center Options</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<string>advancedConfig</string>
+				<string>Bruce</string>
+			</array>
+			<key>textColor</key>
+			<string>blackColor</string>
+			<key>cellBackgroundColor</key>
+			<string>clearColor</string>
+			<key>bold</key>
+			<true/>
+			<key>category</key>
+			<string>Visual</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.whited00r.controlcenter</string>
+			<key>key</key>
+			<string>blurBackground</string>
+			<key>label</key>
+			<string>ControlCenter Blur</string>
+			<key>popupText</key>
+			<string>Adds a blur to Control Center</string>
+			<key>category</key>
+			<string>Visual</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<string>advancedConfig</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.whited00r.controlcenter</string>
+			<key>key</key>
+			<string>tintBlur</string>
+			<key>label</key>
+			<string>Blur Tint</string>
+			<key>popupText</key>
+			<string>Tint the blur of Control Center for a more muted feel</string>
+			<key>category</key>
+			<string>Visual</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<string>advancedConfig</string>
+			</array>
+		</dict>
+		</array>
+	<key>title</key>
+	<string>ControlCenter Extras</string>
+</dict>
+</plist>
